@@ -1,0 +1,28 @@
+.habilityBox{
+    background-color: #c5dae0;
+    padding-top:20px;
+    padding-bottom: 50%;
+    text-align: center;
+}
+.habilityBox h3{
+font-size: 16px;
+text-transform: uppercase;
+margin:0;
+padding:0;
+}
+.row{
+    display:flex;
+    justify-content: space-around;
+}
+.row span{
+    background-color: white;
+    width:112px;
+    height:112px;
+    display:inline-block;
+    border-radius:50%;
+    font-size:40px;
+    line-height:120px;
+}
+.row span i{
+    contain:none;
+}
