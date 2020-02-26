@@ -8,7 +8,7 @@
 
 }
 .aboutmeBox{
-    background-color:rgb(51, 96, 247);
+    background-color:blue;
     display:flex;
     width: 70%;
     height: 70vh;
@@ -24,8 +24,7 @@
 }
 .profile{
     width: 240px;
-    height: 220px;
-    border-radius:50%;
+
 }
 .aboutmewrite {
   

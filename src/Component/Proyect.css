@@ -1,26 +1,39 @@
 .proyectBox{
-background-color: rgb(165, 204, 58);
-width: 80%;
-height: 70vh;
-display:flex; 
-}
+    background-color: rgb(165, 204, 58);
+    width: 80%;
+    height: auto;
+    display:flex; 
+    flex-direction: column;
+    margin-top: 30em;
+    align-items: center;
+    }
 .proyect{
     background-color: rgb(206, 65, 72); 
     display:flex;
     width: 70%;
     flex-direction: column;
+    align-items: center;
     
 }
 .imagen{
-    width: 200px;
-    height: 200px;
+    width: 300px;
 }
 .cards{
     width: 80%;
-    height: 50vh;
     background-color: #c5dae0;
     display: flex;
-   flex-direction: row;
-   align-items: center;
-   justify-content: center; 
+    flex-direction: row;
+     align-items: center;
+     justify-content: center; 
+    }
+.boxcards{
+    background-color: #a028e6;
+    display: flex;
+    flex-direction: column;
+}
+.buttonlinks{
+    background-color: #afd819;
+    display:flex;
+    justify-content: center;
+   
 }

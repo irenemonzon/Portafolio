@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Papitas from '../Imagen/Papitas.png';
-import PokemonData from '../Imagen/PokemonData.png';
+import Papitas from '../Imagen/papitas.png';
+import PokemonData from '../Imagen/pokemon.png';
 import movie from '../Imagen/movie.png';
 import './Proyect.css';
 import './Aboutme.css';
@@ -58,22 +58,23 @@ class Proyects extends Component {
         return (
 
             <div className="cards">
+
                 <div className="imgcards">
                     <img className="imagen" src={this.props.myImg} alt="foto"></img>
                 </div>
-                <div className="textproyect">
-                    <h4>{this.props.myTitle}</h4>
-                    <p>{this.props.myProyect}</p>
-                </div>
-                <div className="buttonlinks">
-                    <a href={this.props.myDemo} ><button className="btndemo">Demo</button></a>
-                    <a href={this.props.myCode}><button className="btncode">Código</button></a>
+                <div className="boxcards">
+                    <div className="textproyect">
+                        <h4>{this.props.myTitle}</h4>
+                        <p>{this.props.myProyect}</p>
+                    </div>
+                    <div className="buttonlinks">
+                        <a href={this.props.myDemo} ><button className="btndemo">Demo</button></a>
+                        <a href={this.props.myCode}><button className="btncode">Código</button></a>
+                    </div>
                 </div>
             </div>
-
         );
     }
-
 }
 
 export default Proyect
