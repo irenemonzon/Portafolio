@@ -1,0 +1,39 @@
+.container{
+   
+    width: 100%;
+    height: 85vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.aboutmeBox{
+    background-color:rgb(51, 96, 247);
+    display:flex;
+    width: 70%;
+    height: 70vh;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.imgBox{
+    width:40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profile{
+    width: 240px;
+    height: 220px;
+    border-radius:50%;
+}
+.aboutmewrite {
+  
+    width: 60%; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.aboutmetext{
+    color:white;
+}
