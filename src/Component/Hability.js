@@ -13,15 +13,18 @@ class Hability extends Component {
                         <div className="texticons">
                             <h3>Tecnologias</h3>
                         </div>
-                        <div className='row'>
-                            <Icons myIcon={iconobj[0].icon} myTitle={iconobj[0].title} />
-                            <Icons myIcon={iconobj[1].icon} myTitle={iconobj[1].title} />
-                            <Icons myIcon={iconobj[2].icon} myTitle={iconobj[2].title} />
-                        </div>
-                        <div className="row2">
-                            <Icons myIcon={iconobj[3].icon} myTitle={iconobj[3].title} />
-                            <Icons myIcon={iconobj[4].icon} myTitle={iconobj[4].title} />
-                            <Icons myIcon={iconobj[5].icon} myTitle={iconobj[5].title} />
+                        <div className='boxicons'>
+
+                            <div className='row'>
+                                <Icons myIcon={iconobj[0].icon} myTitle={iconobj[0].title} />
+                                <Icons myIcon={iconobj[1].icon} myTitle={iconobj[1].title} />
+                                <Icons myIcon={iconobj[2].icon} myTitle={iconobj[2].title} />
+                            </div>
+                            <div className="row2">
+                                <Icons myIcon={iconobj[3].icon} myTitle={iconobj[3].title} />
+                                <Icons myIcon={iconobj[4].icon} myTitle={iconobj[4].title} />
+                                <Icons myIcon={iconobj[5].icon} myTitle={iconobj[5].title} />
+                            </div>
                         </div>
                     </div>
                 </div>

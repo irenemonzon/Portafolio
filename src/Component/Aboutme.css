@@ -3,39 +3,40 @@
     display:flex;
     justify-content: center;
     align-items: center;
-   
+    background-color: #9DB3B9;  
 }
 .aboutmeBox{
     display:flex;
-    width: 70%;
-    height: 70vh;
+    width: 50%;
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    margin-top: 60px;
-    background-color: #365b66;
-    
+    margin-top: 180px;
+    background-color: #FAFBFD; 
+    border-radius: 2em;
 }
 .imgBox{
-    width:30%;
-    display: flex;
+    width:40%; 
+    display:flex; 
     align-items: center;
     justify-content: center;
-
-
 }
 .profile{
-    width: 240px;
-    border-radius: 50%;
+    width: 300px;
+    clip-path: circle(38%);
 
 }
 .aboutmewrite {
-  
-    width: 60%; 
+    width:60%;
     display: flex;
     justify-content: center;
     align-items: center; 
+    flex-direction: column;
+    margin: 10px 10px 10px 0px;
+    background-color: #9DB3B9;
+    border-radius: 2em;
+  
 }
 .aboutmetext{
-    color:white;
+margin:0px 10px 10px 20px;
 }

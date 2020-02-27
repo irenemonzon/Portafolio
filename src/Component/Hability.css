@@ -1,6 +1,5 @@
 .habilityBox{
     width: 80%;
-    background-color: #365b66;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -13,48 +12,54 @@ text-transform: uppercase;
 margin:0;
 padding:0;
 }
-.box{
-    
+.box{  
+    width: 90%; 
     display:flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boxicons{
+    width:80%;
+    display:flex;
+    flex-direction: column;
+    background-color:#FAFBFD;
+    margin-top: 60px;
+    border-radius: 2em;
+    justify-content: center;
+
 }
 .row{
     display:flex;
     justify-content: space-around;
     align-items: center;
-
 }
 .row2 {
     display:flex;
     justify-content: space-around;
-    align-items: center;
-    
+       align-items: center;  
 }
 .row span{
-    background-color: white;
-    width:110px;
-    height:110px;
+    background-color:#9DB3B9;
+    width:100px;
+    height:100px;
     display:inline-block;
     border-radius:50%;
     font-size:40px;
-    line-height:120px;
-   
+    line-height:120px;   
 }
 .row2 span{
-    background-color: white;
+    background-color:#9DB3B9;;
     width:110px;
     height:110px;
     display:inline-block;
     border-radius:50%;
     font-size:40px;
-    line-height:120px;
-   
-   
+    line-height:120px; 
 }
 .row span i{
     contain:none; 
 }
-
 .row2 span i{
     contain:none; 
 }
@@ -66,5 +71,5 @@ padding:0;
    align-items: center;
    justify-content: center;
    flex-direction: column;
-   margin:50px 50px 50px 50px;
+   margin:15px 10px 10px 10px;
 }
