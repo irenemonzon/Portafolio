@@ -69,7 +69,7 @@ class Proyects extends Component {
                     </div>
                     <div className="buttonlinks">
                         <a href={this.props.myDemo} ><button className="btndemo">Demo</button></a>
-                        <a href={this.props.myCode}><button className="btncode">Código</button></a>
+                        <a href={this.props.myCode}><button className="btndemo">Código</button></a>
                     </div>
                 </div>
             </div>

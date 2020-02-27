@@ -1,6 +1,6 @@
 .contactbox{
   
-    width: 80%;
+    width: 95%;
     height: 70vh;
     display:flex; 
     align-items: center;
@@ -8,8 +8,8 @@
     flex-direction: column;
 }
 .containerLogo{
-    background-color:rgb(51, 96, 247);
-    width: 60%;
+    background-color: #365b66;
+    width: 90%;
     height: 50vh;
     display: flex;
     align-items: center;

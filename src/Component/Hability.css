@@ -1,12 +1,10 @@
 .habilityBox{
     width: 80%;
-    height: 70vh;
-    background-color:rgb(51, 96, 247);
+    background-color: #365b66;
     display: flex;
     text-align: center;
     justify-content: center;
-  
-    
+    margin-top:20px;
     
 }
 .habilityBox h3{
@@ -14,17 +12,24 @@ font-size: 16px;
 text-transform: uppercase;
 margin:0;
 padding:0;
-
+}
+.box{
+    
+    display:flex;
+    flex-direction: column;
 }
 .row{
     display:flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 120px;
-    
+
+}
+.row2 {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
     
 }
-
 .row span{
     background-color: white;
     width:110px;
@@ -33,9 +38,33 @@ padding:0;
     border-radius:50%;
     font-size:40px;
     line-height:120px;
-    margin-right: 20px;
+   
+}
+.row2 span{
+    background-color: white;
+    width:110px;
+    height:110px;
+    display:inline-block;
+    border-radius:50%;
+    font-size:40px;
+    line-height:120px;
+   
    
 }
 .row span i{
-    contain:none;
+    contain:none; 
+}
+
+.row2 span i{
+    contain:none; 
+}
+.row2 span p{
+    contain:none;}
+
+.habilityicon{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin:50px 50px 50px 50px;
 }

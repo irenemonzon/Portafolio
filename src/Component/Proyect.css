@@ -1,39 +1,56 @@
 .proyectBox{
-    background-color: rgb(165, 204, 58);
-    width: 80%;
-    height: auto;
+    width: 100%;
     display:flex; 
     flex-direction: column;
-    margin-top: 30em;
     align-items: center;
     }
 .proyect{
-    background-color: rgb(206, 65, 72); 
+
     display:flex;
-    width: 70%;
+    width: 80%;
     flex-direction: column;
-    align-items: center;
-    
-}
-.imagen{
-    width: 300px;
+    align-items: center;   
 }
 .cards{
     width: 80%;
-    background-color: #c5dae0;
+    background-color: #365b66;
     display: flex;
     flex-direction: row;
      align-items: center;
      justify-content: center; 
+     margin: 5px 5px 5px 4px;
     }
+.imgcards{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40%;
+    }
+
 .boxcards{
-    background-color: #a028e6;
-    display: flex;
-    flex-direction: column;
-}
-.buttonlinks{
-    background-color: #afd819;
+        width:60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+  .buttonlinks{
     display:flex;
-    justify-content: center;
-   
+    justify-content: center; 
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 10px; 
 }
+.imagen{
+    width: 180px;
+}
+.btndemo{
+    background-color: rgb(188, 188, 228);
+}
+.textproyect{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
