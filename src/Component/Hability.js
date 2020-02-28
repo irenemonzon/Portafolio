@@ -14,7 +14,6 @@ class Hability extends Component {
                             <h3>Tecnologias</h3>
                         </div>
                         <div className='boxicons'>
-
                             <div className='row'>
                                 <Icons myIcon={iconobj[0].icon} myTitle={iconobj[0].title} />
                                 <Icons myIcon={iconobj[1].icon} myTitle={iconobj[1].title} />

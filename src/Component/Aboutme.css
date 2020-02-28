@@ -40,3 +40,34 @@
 .aboutmetext{
 margin:0px 10px 10px 20px;
 }
+
+@media (max-width:440px) {
+
+    .aboutmeBox{
+        display:flex;
+        width: 70%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 100px;
+        background-color: #FAFBFD; 
+        border-radius: 2em;
+    }
+    .aboutmewrite {
+        width:80%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;
+        margin: 10px 10px 15px 10px;
+        background-color: #9DB3B9;
+        border-radius: 2em; 
+    }
+    .profile{
+        width: 330px;
+        clip-path: circle(38%);
+        margin-top:10px;
+    }
+
+
+}
