@@ -33,9 +33,10 @@ nav ul li{
  @media (max-width:440px) {
 
   nav ul li{
-    margin-right: 20px;
+    margin-right: 25px;
     display: flex;
    display: inline-block; 
+   margin-left: 0px;
   }
 
  }
