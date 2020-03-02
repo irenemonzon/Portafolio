@@ -13,7 +13,7 @@ class Proyect extends Component {
         return (
             <div className="container">
                 <div className="proyectBox">
-                    <div className="textproyect">
+                    <div className="titletext">
                         <h4>Proyectos</h4>
                     </div>
                     <div className='proyect'>

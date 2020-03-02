@@ -72,6 +72,10 @@ padding:0;
    flex-direction: column;
    margin:10px 10px 10px 10px;
 }
+.texticons h3{
+    color: #FAFBFD;
+    font-size:20px;
+}
 @media (max-width:440px) {
 
 

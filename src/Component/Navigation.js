@@ -10,10 +10,10 @@ class Navigations extends Component {
 
             <nav>
                 <ul>
-                    <li><Link to="/navigation/aboutme" className="menu">Sobre mi</Link></li>
-                    <li><Link to="/navigation/hability" className="menu">Tecnologias</Link></li>
+                    <li><Link to="/navigation/aboutme" className="menu">Sobre mí</Link></li>
+                    <li><Link to="/navigation/hability" className="menu">Tecnologías</Link></li>
                     <li><Link to="/navigation/proyect" className="menu">Proyectos</Link></li>
-                    <li><Link to="/navigation/contact" className="menu">Contactame</Link> </li>
+                    <li><Link to="/navigation/contact" className="menu">Contáctame</Link> </li>
                 </ul>
             </nav>
 

@@ -15,7 +15,7 @@ class Aboutme extends Component {
           </div>
           <div className="aboutmewrite">
             <h4 className="titletext">Irene Monzon</h4>
-            <p className="aboutmetext">Soy desarrolladora front-end e ingeniera electrónica de profesión,responsable, ordenada, con capacidad de trabajo en equipo,
+            <p className="aboutmetext">Soy desarrolladora front-end e ingeniera electrónica de profesión, apasionada de la tecnologia, comprometida, con capacidad de trabajo en equipo,
             me gusta asumir grandes retos, contribuyendo en el éxito de clientes y usuarios a través de soluciones tecnológicas. </p>
           </div>
         </div>

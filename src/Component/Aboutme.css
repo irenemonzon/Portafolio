@@ -3,7 +3,8 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: #9DB3B9;  
+    background: rgb(172,113,139);
+background: linear-gradient(90deg, rgba(172,113,139,1) 0%, rgba(88,73,226,1) 0%, rgba(63,139,228,0.9850315126050421) 100%); 
 }
 .aboutmeBox{
     display:flex;

@@ -16,6 +16,10 @@
     margin-top: 50px;
     border-radius: 2em;
 }
+.contacttitle{
+    color: #FAFBFD;
+    font-size:20px;
+}
 @media (max-width:440px){
     .containerLogo{
         flex-wrap: wrap;
