@@ -75,10 +75,10 @@ padding:0;
 @media (max-width:440px) {
 
 
-    .boxicons{
-        
+    .boxicons{ 
         flex-direction: row;
-        
+        margin-top: 20px;
+        margin-bottom: 50px
     }
     .row{
     
@@ -87,6 +87,18 @@ padding:0;
     .row2 {
        
            flex-direction: column;
+    }
+
+    .row span{
+        width:80px;
+        height:80px;
+        line-height:80px;   
+    }
+    .row2 span{
+        
+        width:80px;
+        height:80px;
+        line-height:80px; 
     }
 
 }

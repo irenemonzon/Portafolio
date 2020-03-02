@@ -19,5 +19,12 @@
 @media (max-width:440px){
     .containerLogo{
         flex-wrap: wrap;
+        width: 80%;
+    }
+}
+@media (max-width:320px){
+    .containerLogo{
+        flex-wrap: wrap;
+        width: 80%;
     }
 }

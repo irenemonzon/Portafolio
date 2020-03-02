@@ -32,11 +32,25 @@ nav ul li{
  }
  @media (max-width:440px) {
 
+  nav{
+    height:8vh;
+  }
+  nav ul{
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+
+  }
   nav ul li{
-    margin-right: 25px;
-    display: flex;
+  
+  display: flex;
    display: inline-block; 
+   margin-right: 10px;
    margin-left: 0px;
+  
   }
 
  }
+
+
