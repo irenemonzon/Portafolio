@@ -12,7 +12,7 @@ background: linear-gradient(90deg, rgba(172,113,139,1) 0%, rgba(88,73,226,1) 0%,
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    margin-top: 180px;
+    margin-top: 160px;
     background-color: #FAFBFD; 
     border-radius: 2em;
 }
@@ -23,7 +23,7 @@ background: linear-gradient(90deg, rgba(172,113,139,1) 0%, rgba(88,73,226,1) 0%,
     justify-content: center;
 }
 .profile{
-    width: 300px;
+    width: 350px;
     clip-path: circle(38%);
 
 }
@@ -41,35 +41,42 @@ background: linear-gradient(90deg, rgba(172,113,139,1) 0%, rgba(88,73,226,1) 0%,
 .aboutmetext{
 margin:0px 10px 10px 20px;
 }
+.boxbtn{
+    margin-bottom: 10px;
+    
+}
+.btncv{
+    border-radius: 2em; 
+}
 
 @media (max-width:440px) {
 
     .aboutmeBox{
-        display:flex;
         width: 70%;
-        align-items: center;
         flex-direction: column;
-        justify-content: center;
         margin-top: 50px;
         margin-bottom: 50px;
-        background-color: #FAFBFD; 
-        border-radius: 2em;
     }
     .aboutmewrite {
         width:80%;
-        display: flex;
-        justify-content: center;
-        align-items: center; 
-        flex-direction: column;
         margin: 10px 10px 15px 10px;
-        background-color: #9DB3B9;
-        border-radius: 2em; 
     }
     .profile{
         width: 330px;
         clip-path: circle(38%);
         margin-top:10px;
     }
-
-
+}
+@media (max-width:420px) {
+   
+    .aboutmewrite {
+        width:85%;
+        margin: 10px 10px 15px 10px;
+    }
+    .aboutmeBox{
+        width: 80%;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 50px;
+}
 }

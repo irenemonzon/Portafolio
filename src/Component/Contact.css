@@ -9,26 +9,45 @@
 .containerLogo{
     background-color:#FAFBFD;
     width: 60%;
-    height: 50vh;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 70px;
     border-radius: 2em;
 }
 .contacttitle{
     color: #FAFBFD;
     font-size:20px;
+    
+}
+.iconcontact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.texticonbox{
+    margin-top: 10px;
+}
+.texticonbox p{
+    font-size: 16px;
+    color: #365b66;
 }
 @media (max-width:440px){
     .containerLogo{
         flex-wrap: wrap;
         width: 80%;
+        height: auto;
+        margin-top: 60px;
     }
 }
 @media (max-width:320px){
     .containerLogo{
         flex-wrap: wrap;
         width: 80%;
+        height: auto;
+        margin-top: 60px;
     }
 }

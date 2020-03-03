@@ -11,7 +11,7 @@ class Hability extends Component {
                 <div className="habilityBox">
                     <div className="box">
                         <div className="texticons">
-                            <h3>Tecnologias</h3>
+                            <h3>Tecnologías</h3>
                         </div>
                         <div className='boxicons'>
                             <div className='row'>
