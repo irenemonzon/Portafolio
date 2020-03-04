@@ -3,7 +3,7 @@
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-top:20px;
+    margin-top:10px;
     
 }
 .habilityBox h3{
@@ -21,7 +21,7 @@ font-size: 20px;
     width:80%;
     display:flex;
     flex-direction: column;
-    background-color:#FAFBFD;
+  
     margin-top: 60px;
     border-radius: 2em;
     justify-content: center;
@@ -37,7 +37,7 @@ font-size: 20px;
        align-items: center;  
 }
 .row span{
-    background-color:#9DB3B9;
+    background-color: rgba(246, 248, 252, 0.65);
     width:100px;
     height:100px;
     display:inline-block;
@@ -46,13 +46,19 @@ font-size: 20px;
     line-height:120px;   
 }
 .row2 span{
-    background-color:#9DB3B9;;
-    width:110px;
-    height:110px;
+    background-color: rgba(246, 248, 252, 0.65);
+    width:100px;
+    height:100px;
     display:inline-block;
     border-radius:50%;
     font-size:40px;
     line-height:120px; 
+}
+.row span:hover{
+    background-color: rgba(27, 182, 182, 0.65);  
+}
+.row2 span:hover{
+    background-color: rgba(27, 182, 182, 0.65);  
 }
 .row span i{
     contain:none; 
@@ -61,8 +67,17 @@ font-size: 20px;
     contain:none; 
 }
 .row2 span p{
-    contain:none;}
-
+    contain:none;
+}
+.row span i:hover{
+    color: #FAFBFD;
+}
+.row2 span i:hover{
+    color: #FAFBFD;
+}
+ i svg path:hover{
+    fill: #FAFBFD;
+}
 .habilityicon{
    display: flex;
    align-items: center;
@@ -74,21 +89,27 @@ font-size: 20px;
     color: #FAFBFD;
     font-size:20px;
 }
+.habilityicon p{
+    color: #FAFBFD;
+}
+
+
 @media (max-width:440px) {
 
 
     .boxicons{ 
         flex-direction: row;
-        margin-top: 20px;
+        margin-top: 10px;
         margin-bottom: 50px
     }
     .row{
-    
         flex-direction: column;
+        margin-right: 20px;
     }
     .row2 {
        
            flex-direction: column;
+           margin-left: 20px;
     }
 
     .row span{
@@ -103,4 +124,5 @@ font-size: 20px;
         line-height:80px; 
     }
 
+    
 }

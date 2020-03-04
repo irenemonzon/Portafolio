@@ -14,7 +14,7 @@
 }
 .cards{
     width: 80%;
-    background-color:#FAFBFD;
+    background-color: rgba(246, 248, 252, 0.65);
     display: flex;
     flex-direction: row;
      align-items: center;
@@ -27,7 +27,7 @@
         align-items: center;
         justify-content: center;
         width: 30%;
-        background-color:#9DB3B9;
+        background-color:rgb(81, 117, 235);
         border-radius: 2em;
         margin: 10px 10px 10px 10px;
     }
@@ -54,11 +54,14 @@
     width:400px;
 }
 .btndemo{
-    background-color:#9DB3B9;
-    border-radius: 2em;
+    background-color:rgb(81, 117, 235);
+    border-radius: 1em;
+    color: #FAFBFD;
+    border:15px;
+    height:25px;
 }
 .btndemo:hover{
-    background-color: #364B91;
+    background-color: rgb(28, 38, 190);
 }
 .textproyect{
     display:flex;
@@ -75,7 +78,6 @@
 
    .cards{
         width:90%;
-        background-color:#FAFBFD;
         flex-direction: column;
         }
         .imgcards{ 

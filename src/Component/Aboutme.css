@@ -5,6 +5,7 @@
     align-items: center;
     background: rgb(172,113,139);
 background: linear-gradient(90deg, rgba(172,113,139,1) 0%, rgba(88,73,226,1) 0%, rgba(63,139,228,0.9850315126050421) 100%); 
+
 }
 .aboutmeBox{
     display:flex;
@@ -13,7 +14,7 @@ background: linear-gradient(90deg, rgba(172,113,139,1) 0%, rgba(88,73,226,1) 0%,
     flex-direction: row;
     justify-content: center;
     margin-top: 160px;
-    background-color: #FAFBFD; 
+
     border-radius: 2em;
 }
 .imgBox{
@@ -34,7 +35,7 @@ background: linear-gradient(90deg, rgba(172,113,139,1) 0%, rgba(88,73,226,1) 0%,
     align-items: center; 
     flex-direction: column;
     margin: 10px 10px 10px 0px;
-    background-color: #9DB3B9;
+    background-color: rgba(246, 248, 252, 0.65);
     border-radius: 2em;
   
 }
@@ -46,7 +47,14 @@ margin:0px 10px 10px 20px;
     
 }
 .btncv{
-    border-radius: 2em; 
+    background-color:rgb(81, 117, 235);
+    border-radius: 1em; 
+    color: #FAFBFD;
+    border:15px;
+    height:30px;
+}
+.btncv:hover{
+    background-color: rgb(28, 38, 190);
 }
 
 @media (max-width:440px) {
@@ -62,7 +70,7 @@ margin:0px 10px 10px 20px;
         margin: 10px 10px 15px 10px;
     }
     .profile{
-        width: 330px;
+        width: 350px;
         clip-path: circle(38%);
         margin-top:10px;
     }
@@ -78,5 +86,18 @@ margin:0px 10px 10px 20px;
         flex-direction: column;
         margin-top: 50px;
         margin-bottom: 50px;
+    }
 }
+
+@media (max-width:770px) {
+
+    .aboutmeBox{
+        width: 80%;
+    }
+}
+@media (max-width:860px) {
+
+    .aboutmeBox{
+        width: 80%;
+    }
 }

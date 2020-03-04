@@ -31,14 +31,14 @@ const proyectobj = [
     {
         img: PokemonData,
         title: 'PokemonData',
-        descripcion: 'interfaz de desarrollo móvil y web para usuarios del juego Pokemon Go para visualizar y filtrar distintos tipos de datos.',
+        descripcion: 'Interfaz de desarrollo móvil y web para usuarios del juego Pokemon Go para visualizar y filtrar distintos tipos de datos.',
         demo: 'https://irenemonzon.github.io/SCL011-data-lovers/src/index.html',
         code: 'https://github.com/irenemonzon/SCL011-data-lovers'
     },
     {
         img: Papitas,
         title: 'Red social',
-        descripcion: 'Interfaz web donde los usuarios pueden recomendar y visualizar los mejores lugares para comer papitas fritas.',
+        descripcion: 'Interfaz  movil y web donde los usuarios pueden recomendar y visualizar los mejores lugares para comer papitas fritas.',
         demo: 'https://irenemonzon.github.io/SCL011-Social-Network/src/index.html',
         code: 'https://github.com/irenemonzon/SCL011-Social-Network'
     },
@@ -46,7 +46,7 @@ const proyectobj = [
     {
         img: movie,
         title: 'Movielennian',
-        descripcion: 'Interfaz web donde el usuario puede buscar información de las películas mas populares, por genero o por año.',
+        descripcion: 'Interfaz web donde el usuario puede buscar información sobre las películas mas populares, por genero o por año.',
         demo: 'https://irenemonzon.github.io/SCL011-hackathon-peliculas/src/index.html',
         code: 'https://github.com/irenemonzon/SCL011-hackathon-peliculas'
     }
