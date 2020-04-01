@@ -68,8 +68,8 @@ class Proyects extends Component {
                         <p>{this.props.myProyect}</p>
                     </div>
                     <div className="buttonlinks">
-                        <a href={this.props.myDemo} ><button className="btndemo" target="blank">Demo</button></a>
-                        <a href={this.props.myCode}><button className="btndemo" target="blank">Código</button></a>
+                        <a href={this.props.myDemo} target="blank"><button className="btndemo" >Demo</button></a>
+                        <a href={this.props.myCode} target="blank"><button className="btndemo" >Código</button></a>
                     </div>
                 </div>
             </div>
