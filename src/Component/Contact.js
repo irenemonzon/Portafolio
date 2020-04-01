@@ -32,7 +32,7 @@ class Contact extends Component {
                             </div>
                         </div>
                         <div className="iconcontact">
-                            <a href="mailto:irene.monzonm@gmail.com" className="logocontact">
+                            <a href="mailto:irene.monzonm@gmail.com" className="logocontact" target="blank">
                                 <svg width="106" height="90" viewBox="0 0 106 90" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M19 0C10.7157 0 4 6.71573 4 15V75C4 83.2843 10.7157 90 19 90H79C87.2843 90 94 83.2843 94 75V15C94 6.71573 87.2843 0 79 0H19ZM21.5 26.0175C21.498 25.8579 21.5214 25.6973 21.5712 25.5421C21.6175 25.3978 21.6866 25.2581 21.7794 25.1281C21.7973 25.1031 21.8158 25.0787 21.8349 25.0551C22.1078 24.718 22.5014 24.5279 22.9083 24.5028C22.9454 24.5005 22.9827 24.4995 23.02 24.5H75.48C75.7245 24.497 75.9676 24.5536 76.1865 24.666C76.3671 24.7587 76.5311 24.8894 76.6657 25.0559C76.7814 25.1986 76.8715 25.3631 76.9288 25.5421C76.9786 25.6973 77.002 25.8579 77 26.0174V63.5C77 64.3284 76.3284 65 75.5 65H23C22.1716 65 21.5 64.3284 21.5 63.5V26.0175ZM49.25 42.9066L27.6807 27.5H70.8193L49.25 42.9066ZM50.1219 45.9706L74 28.9148V62H24.5V28.9148L48.3781 45.9706C48.8997 46.3431 49.6003 46.3431 50.1219 45.9706Z" fill="#365b66" />
                                 </svg>
@@ -42,7 +42,7 @@ class Contact extends Component {
                             </div>
                         </div>
                         <div className="iconcontact">
-                            <a href="https://app.talento.laboratoria.la/profile/vFrH2ZHW8tgnA5hpyb5GWbPJzFc2" className="logocontact">
+                            <a href="https://app.talento.laboratoria.la/profile/vFrH2ZHW8tgnA5hpyb5GWbPJzFc2" className="logocontact" target="blank" >
                                 <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M15 0C6.71573 0 0 6.71573 0 15V75C0 83.2843 6.71573 90 15 90H75C83.2843 90 90 83.2843 90 75V15C90 6.71573 83.2843 0 75 0H15ZM23.6 57.3L25.85 53.75L12.9 45.85L25.85 37.9L23.65 34.4L7.65 44.45V47.3L23.6 57.3ZM36.4805 63H57.2805V58.75H41.2305V28H36.4805V63ZM81.8676 44.45L65.8676 34.4L63.6676 37.9L76.6176 45.85L63.6676 53.75L65.9176 57.3L81.8676 47.3V44.45Z" fill="#365b66" />
                                 </svg>
