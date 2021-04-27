@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import copycolor from '../Imagen/copycolor.png';
 import PokemonData from '../Imagen/pokemon.png';
+import Papitas from '../Imagen/papitas.png';
 import movie from '../Imagen/movie.png';
 import users from '../Imagen/users.png';
 import './Proyect.css';
@@ -22,6 +23,7 @@ class Proyect extends Component {
                         <Proyects myImg={proyectobj[1].img} myTitle={proyectobj[1].title} myProyect={proyectobj[1].descripcion} myDemo={proyectobj[1].demo} myCode={proyectobj[1].code} />
                         <Proyects myImg={proyectobj[2].img} myTitle={proyectobj[2].title} myProyect={proyectobj[2].descripcion} myDemo={proyectobj[2].demo} myCode={proyectobj[2].code} />
                         <Proyects myImg={proyectobj[3].img} myTitle={proyectobj[3].title} myProyect={proyectobj[3].descripcion} myDemo={proyectobj[3].demo} myCode={proyectobj[3].code} />
+                        <Proyects myImg={proyectobj[4].img} myTitle={proyectobj[4].title} myProyect={proyectobj[4].descripcion} myDemo={proyectobj[4].demo} myCode={proyectobj[4].code} />
                     </div>
                 </div>
             </div>
@@ -30,6 +32,20 @@ class Proyect extends Component {
 }
 
 const proyectobj = [
+    {
+        img: copycolor,
+        title: 'Copy Color',
+        descripcion: 'Interfaz web creada para visualizar y copiar una gran gama de colores,logrando asi simplificar y agilizar el trabajo en cualquier diseño web requerido.',
+        demo: 'https://copycolors.netlify.app/',
+        code: 'https://github.com/irenemonzon/copy_color'
+    },
+    {
+        img: users,
+        title: 'Users',
+        descripcion: 'Interfaz web realizada en React creada para dar a conocer los datos de las personas, los  cuales son extraidos de una API publica.',
+        demo: 'https://randomusers.netlify.app/',
+        code: 'https://github.com/irenemonzon/DataRandom'
+    },
     {
         img: PokemonData,
         title: 'PokemonData',
@@ -44,20 +60,15 @@ const proyectobj = [
         demo: 'https://irenemonzon.github.io/SCL011-hackathon-peliculas/src/index.html',
         code: 'https://github.com/irenemonzon/SCL011-hackathon-peliculas'
     },
+  
     {
-        img: copycolor,
-        title: 'Copy Color',
-        descripcion: 'Interfaz web creada para visualizar y copiar una gran gama de colores,logrando asi simplificar y agilizar el trabajo en cualquier diseño web requerido.',
-        demo: 'https://copycolors.netlify.app/',
-        code: 'https://github.com/irenemonzon/copy_color'
-    },
-    {
-        img: users,
-        title: 'Users',
-        descripcion: 'Interfaz web realizada en React creada para dar a conocer los datos de las personas, los  cuales son extraidos de una API publica.',
-        demo: 'https://randomusers.netlify.app/',
-        code: 'https://github.com/irenemonzon/DataRandom'
+        img: Papitas,
+        title: 'Red social',
+        descripcion: 'Interfaz  movil y web donde los usuarios pueden recomendar y visualizar los mejores lugares para comer papitas fritas.',
+        demo: 'https://irenemonzon.github.io/SCL011-Social-Network/src/index.html',
+        code: 'https://github.com/irenemonzon/SCL011-Social-Network'
     }
+
 ];
 
 class Proyects extends Component {
