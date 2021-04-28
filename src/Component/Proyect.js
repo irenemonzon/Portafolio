@@ -6,6 +6,7 @@ import movie from '../Imagen/movie.png';
 import users from '../Imagen/users.png';
 import './Proyect.css';
 import './Aboutme.css';
+import proyectobj from './proyects.json'
 
 
 
@@ -19,57 +20,17 @@ class Proyect extends Component {
                         <h4>Proyectos</h4>
                     </div>
                     <div className='proyect'>
-                        <Proyects myImg={proyectobj[0].img} myTitle={proyectobj[0].title} myProyect={proyectobj[0].descripcion} myDemo={proyectobj[0].demo} myCode={proyectobj[0].code} />
-                        <Proyects myImg={proyectobj[1].img} myTitle={proyectobj[1].title} myProyect={proyectobj[1].descripcion} myDemo={proyectobj[1].demo} myCode={proyectobj[1].code} />
-                        <Proyects myImg={proyectobj[2].img} myTitle={proyectobj[2].title} myProyect={proyectobj[2].descripcion} myDemo={proyectobj[2].demo} myCode={proyectobj[2].code} />
-                        <Proyects myImg={proyectobj[3].img} myTitle={proyectobj[3].title} myProyect={proyectobj[3].descripcion} myDemo={proyectobj[3].demo} myCode={proyectobj[3].code} />
-                        <Proyects myImg={proyectobj[4].img} myTitle={proyectobj[4].title} myProyect={proyectobj[4].descripcion} myDemo={proyectobj[4].demo} myCode={proyectobj[4].code} />
+                        <Proyects myImg={copycolor} myTitle={proyectobj[0].title} myProyect={proyectobj[0].descripcion} myDemo={proyectobj[0].demo} myCode={proyectobj[0].code} />
+                        <Proyects myImg={users} myTitle={proyectobj[1].title} myProyect={proyectobj[1].descripcion} myDemo={proyectobj[1].demo} myCode={proyectobj[1].code} />
+                        <Proyects myImg={PokemonData} myTitle={proyectobj[2].title} myProyect={proyectobj[2].descripcion} myDemo={proyectobj[2].demo} myCode={proyectobj[2].code} />
+                        <Proyects myImg={movie} myTitle={proyectobj[3].title} myProyect={proyectobj[3].descripcion} myDemo={proyectobj[3].demo} myCode={proyectobj[3].code} />
+                        <Proyects myImg={Papitas} myTitle={proyectobj[4].title} myProyect={proyectobj[4].descripcion} myDemo={proyectobj[4].demo} myCode={proyectobj[4].code} />
                     </div>
                 </div>
             </div>
         );
     }
 }
-
-const proyectobj = [
-    {
-        img: copycolor,
-        title: 'Copy Color',
-        descripcion: 'Interfaz web creada para visualizar y copiar una gran gama de colores,logrando asi simplificar y agilizar el trabajo en cualquier diseño web requerido.',
-        demo: 'https://copycolors.netlify.app/',
-        code: 'https://github.com/irenemonzon/copy_color'
-    },
-    {
-        img: users,
-        title: 'Users',
-        descripcion: 'Interfaz web realizada en React creada para dar a conocer los datos de las personas, los  cuales son extraidos de una API publica.',
-        demo: 'https://randomusers.netlify.app/',
-        code: 'https://github.com/irenemonzon/DataRandom'
-    },
-    {
-        img: PokemonData,
-        title: 'PokemonData',
-        descripcion: 'Interfaz de desarrollo móvil y web para usuarios del juego Pokemon Go para visualizar y filtrar distintos tipos de datos.',
-        demo: 'https://irenemonzon.github.io/SCL011-data-lovers/src/index.html',
-        code: 'https://github.com/irenemonzon/SCL011-data-lovers'
-    },
-    {
-        img: movie,
-        title: 'Movielennian',
-        descripcion: 'Interfaz web donde el usuario puede filtrar para visualizar información sobre las películas mas populares, por genero o por año.',
-        demo: 'https://irenemonzon.github.io/SCL011-hackathon-peliculas/src/index.html',
-        code: 'https://github.com/irenemonzon/SCL011-hackathon-peliculas'
-    },
-  
-    {
-        img: Papitas,
-        title: 'Red social',
-        descripcion: 'Interfaz  movil donde los usuarios pueden recomendar y visualizar los mejores lugares de comida.',
-        demo: 'https://irenemonzon.github.io/SCL011-Social-Network/src/index.html',
-        code: 'https://github.com/irenemonzon/SCL011-Social-Network'
-    }
-
-];
 
 class Proyects extends Component {
     render() {
