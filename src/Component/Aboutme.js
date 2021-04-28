@@ -16,8 +16,7 @@ class Aboutme extends Component {
           </div>
           <div className="aboutmewrite">
             <h4 className="titletext">Irene Monzón</h4>
-            <p className="aboutmetext">Soy desarrolladora front-end e ingeniera electrónica de profesión, apasionada de la tecnologia, comprometida, con capacidad de trabajo en equipo,
-            me gusta asumir grandes retos, contribuyendo en el éxito de clientes y usuarios a través de soluciones tecnológicas. </p>
+            <p className="aboutmetext">Soy Desarrolladora Front End e ingeniera electrónica de profesión, apasionada de la tecnologia, comprometida y con capacidad de trabajo en equipo. Me gusta asumir grandes retos, contribuyendo en el éxito de clientes y usuarios a través de soluciones tecnológicas. </p>
             <div className="boxbtn">
               <a href={cv} target="blank"><button className="btncv" >Descarga mi CV</button></a>
             </div>
