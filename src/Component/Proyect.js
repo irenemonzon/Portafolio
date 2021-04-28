@@ -56,7 +56,7 @@ const proyectobj = [
     {
         img: movie,
         title: 'Movielennian',
-        descripcion: 'Interfaz web donde el usuario puede buscar información sobre las películas mas populares, por genero o por año.',
+        descripcion: 'Interfaz web donde el usuario puede filtrar para visualizar información sobre las películas mas populares, por genero o por año.',
         demo: 'https://irenemonzon.github.io/SCL011-hackathon-peliculas/src/index.html',
         code: 'https://github.com/irenemonzon/SCL011-hackathon-peliculas'
     },
@@ -64,7 +64,7 @@ const proyectobj = [
     {
         img: Papitas,
         title: 'Red social',
-        descripcion: 'Interfaz  movil y web donde los usuarios pueden recomendar y visualizar los mejores lugares para comer papitas fritas.',
+        descripcion: 'Interfaz  movil donde los usuarios pueden recomendar y visualizar los mejores lugares de comida.',
         demo: 'https://irenemonzon.github.io/SCL011-Social-Network/src/index.html',
         code: 'https://github.com/irenemonzon/SCL011-Social-Network'
     }

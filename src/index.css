@@ -3,15 +3,10 @@ body {
     width: 100%;
     background: rgb(172,113,139);
     background: linear-gradient(90deg, rgba(172,113,139,1) 0%, rgba(88,73,226,1) 0%, rgba(63,139,228,0.9850315126050421) 100%); 
+    font-family: 'Hind', 'Helvetica', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
   
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}

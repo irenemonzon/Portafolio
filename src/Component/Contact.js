@@ -41,16 +41,6 @@ class Contact extends Component {
                                 <p>Mail</p>
                             </div>
                         </div>
-                        <div className="iconcontact">
-                            <a href="https://app.talento.laboratoria.la/profile/vFrH2ZHW8tgnA5hpyb5GWbPJzFc2" className="logocontact" target="blank" >
-                                <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15 0C6.71573 0 0 6.71573 0 15V75C0 83.2843 6.71573 90 15 90H75C83.2843 90 90 83.2843 90 75V15C90 6.71573 83.2843 0 75 0H15ZM23.6 57.3L25.85 53.75L12.9 45.85L25.85 37.9L23.65 34.4L7.65 44.45V47.3L23.6 57.3ZM36.4805 63H57.2805V58.75H41.2305V28H36.4805V63ZM81.8676 44.45L65.8676 34.4L63.6676 37.9L76.6176 45.85L63.6676 53.75L65.9176 57.3L81.8676 47.3V44.45Z" fill="#365b66" />
-                                </svg>
-                            </a>
-                            <div className="texticonbox">
-                                <p>App de Talento</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
